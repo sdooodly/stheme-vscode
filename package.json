@@ -1,0 +1,52 @@
+{
+  "name": "beatles-theme",
+  "displayName": "Beatles Theme",
+  "description": "A 4-theme pack inspired by the Fab Four — John, Paul, George, and Ringo. Each theme captures the personality and musical spirit of a Beatle.",
+  "version": "1.0.0",
+  "publisher": "sdooodly",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "beatles",
+    "john",
+    "paul",
+    "george",
+    "ringo",
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Beatles: John",
+        "uiTheme": "vs-dark",
+        "path": "./themes/john.json"
+      },
+      {
+        "label": "Beatles: Paul",
+        "uiTheme": "vs-dark",
+        "path": "./themes/paul.json"
+      },
+      {
+        "label": "Beatles: George",
+        "uiTheme": "vs-dark",
+        "path": "./themes/george.json"
+      },
+      {
+        "label": "Beatles: Ringo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ringo.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
