@@ -1,0 +1,93 @@
+{
+  "name": "Beatles: Paul McCartney (Light)",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FDF8F5",
+    "editor.foreground": "#2A1A12",
+    "editorCursor.foreground": "#B8960A",
+    "editor.selectionBackground": "#D0E4F0",
+    "editor.lineHighlightBackground": "#F5F0EC",
+    "editorLineNumber.foreground": "#B0A098",
+    "editorLineNumber.activeForeground": "#B8960A",
+    "sideBar.background": "#F5EDE8",
+    "sideBar.foreground": "#2A1A12",
+    "sideBarTitle.foreground": "#3A7AAA",
+    "activityBar.background": "#EDE4DE",
+    "activityBar.foreground": "#2A1A12",
+    "statusBar.background": "#3A7AAA",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#F5EDE8",
+    "titleBar.activeForeground": "#2A1A12",
+    "tab.activeBackground": "#FDF8F5",
+    "tab.inactiveBackground": "#F5EDE8",
+    "tab.activeForeground": "#2A1A12",
+    "terminal.background": "#FDF8F5",
+    "terminal.foreground": "#2A1A12",
+    "panel.background": "#F5EDE8",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#2A1A12",
+    "input.border": "#D8C8BE",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.foreground": "#2A1A12",
+    "badge.background": "#3A7AAA",
+    "badge.foreground": "#FFFFFF",
+    "button.background": "#3A7AAA",
+    "button.foreground": "#FFFFFF",
+    "list.activeSelectionBackground": "#D0E4F0",
+    "list.hoverBackground": "#F0E8E2"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#9A8878", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": { "foreground": "#9A7A08" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#B8960A" }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#2A6090" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#7A5A08" }
+    },
+    {
+      "scope": ["entity.name.type", "support.type", "support.class"],
+      "settings": { "foreground": "#3A7AAA" }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": { "foreground": "#2A1A12" }
+    },
+    {
+      "scope": ["constant.language", "support.constant"],
+      "settings": { "foreground": "#7A5A08" }
+    },
+    {
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#2A6090" }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#9A7A08" }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": { "foreground": "#5A4A3A" }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#3A2A1A" }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": { "foreground": "#7A5A08" }
+    }
+  ]
+}

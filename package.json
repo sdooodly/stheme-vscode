@@ -1,8 +1,8 @@
 {
   "name": "beatles-theme",
   "displayName": "Beatles Theme",
-  "description": "A 4-theme pack inspired by the Fab Four — John, Paul, George, and Ringo. Each theme captures the personality and musical spirit of a Beatle.",
-  "version": "1.0.0",
+  "description": "An 8-theme pack inspired by the Beatles. Dark and light variants inspired by each Beatle.",
+  "version": "1.3.0",
   "publisher": "sdooodly",
   "engines": {
     "vscode": "^1.60.0"
@@ -14,33 +14,54 @@
     "theme",
     "color-theme",
     "beatles",
-    "john",
-    "paul",
-    "george",
-    "ringo",
-    "dark"
+    "lennon",
+    "mccartney",
+    "harrison",
+    "starr",
+    "dark",
+    "light"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Beatles: John",
+        "label": "Beatles: John Lennon",
         "uiTheme": "vs-dark",
-        "path": "./themes/john.json"
+        "path": "./themes/john-lennon.json"
       },
       {
-        "label": "Beatles: Paul",
-        "uiTheme": "vs-dark",
-        "path": "./themes/paul.json"
+        "label": "Beatles: John Lennon (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/john-lennon-light.json"
       },
       {
-        "label": "Beatles: George",
+        "label": "Beatles: Paul McCartney",
         "uiTheme": "vs-dark",
-        "path": "./themes/george.json"
+        "path": "./themes/paul-mccartney.json"
       },
       {
-        "label": "Beatles: Ringo",
+        "label": "Beatles: Paul McCartney (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/paul-mccartney-light.json"
+      },
+      {
+        "label": "Beatles: George Harrison",
         "uiTheme": "vs-dark",
-        "path": "./themes/ringo.json"
+        "path": "./themes/george-harrison.json"
+      },
+      {
+        "label": "Beatles: George Harrison (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/george-harrison-light.json"
+      },
+      {
+        "label": "Beatles: Ringo Starr",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ringo-starr.json"
+      },
+      {
+        "label": "Beatles: Ringo Starr (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/ringo-starr-light.json"
       }
     ]
   },

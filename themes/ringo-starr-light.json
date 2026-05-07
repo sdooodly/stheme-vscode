@@ -1,0 +1,93 @@
+{
+  "name": "Beatles: Ringo Starr (Light)",
+  "type": "light",
+  "colors": {
+    "editor.background": "#F5F7FA",
+    "editor.foreground": "#141820",
+    "editorCursor.foreground": "#A01830",
+    "editor.selectionBackground": "#D0E0F8",
+    "editor.lineHighlightBackground": "#ECEEF2",
+    "editorLineNumber.foreground": "#A0A8B8",
+    "editorLineNumber.activeForeground": "#A01830",
+    "sideBar.background": "#ECEEF5",
+    "sideBar.foreground": "#141820",
+    "sideBarTitle.foreground": "#2868C8",
+    "activityBar.background": "#E2E5EC",
+    "activityBar.foreground": "#141820",
+    "statusBar.background": "#A01830",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#ECEEF5",
+    "titleBar.activeForeground": "#141820",
+    "tab.activeBackground": "#F5F7FA",
+    "tab.inactiveBackground": "#ECEEF5",
+    "tab.activeForeground": "#141820",
+    "terminal.background": "#F5F7FA",
+    "terminal.foreground": "#141820",
+    "panel.background": "#ECEEF5",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#141820",
+    "input.border": "#C8D0E0",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.foreground": "#141820",
+    "badge.background": "#A01830",
+    "badge.foreground": "#FFFFFF",
+    "button.background": "#2868C8",
+    "button.foreground": "#FFFFFF",
+    "list.activeSelectionBackground": "#D0E0F8",
+    "list.hoverBackground": "#E8ECF2"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#8890A0", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": { "foreground": "#A01830" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#7080A0" }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": { "foreground": "#2868C8" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#C02040" }
+    },
+    {
+      "scope": ["entity.name.type", "support.type", "support.class"],
+      "settings": { "foreground": "#2060B0" }
+    },
+    {
+      "scope": ["variable", "variable.other"],
+      "settings": { "foreground": "#141820" }
+    },
+    {
+      "scope": ["constant.language", "support.constant"],
+      "settings": { "foreground": "#7080A0" }
+    },
+    {
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#2868C8" }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#A01830" }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": { "foreground": "#4A5060" }
+    },
+    {
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#2A3040" }
+    },
+    {
+      "scope": ["meta.object-literal.key"],
+      "settings": { "foreground": "#C02040" }
+    }
+  ]
+}
