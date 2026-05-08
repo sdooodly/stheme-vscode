@@ -1,4 +1,4 @@
-# Beatles Theme
+# Beatles theme
 
 An 8-theme VS Code color theme pack inspired by the Beatles. Dark and light variants for each Beatle.
 
@@ -22,7 +22,7 @@ Each theme comes in a **dark** and **light** variant.
 
 1. Open VS Code
 2. Go to Extensions (Ctrl+Shift+X)
-3. Search for "Beatles Theme"
+3. Search for "Beatles theme"
 4. Click Install
 5. Open the Command Palette (Ctrl+K Ctrl+T) and select your favourite Beatle
 

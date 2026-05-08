@@ -1,0 +1,4 @@
+.git/**
+.vscode/**
+surprise-cat/**
+*.vsix
